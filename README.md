@@ -5,4 +5,13 @@ The model consists of two parts: the CVaR optimization and dynamic adjustment ba
 
 After being developed, we compare it to naive 1/N and generic Markowitz mean-variance portfolio. Its performance is desirable but depends on the level of risk tolerance. The slides of the model can be found [here](https://www.dropbox.com/scl/fi/0jtyb94ayen9xm9srp0bq/DCVaR.pdf?rlkey=rgx15vu7li3jx5voi6guy0ac9&dl=0).
 
-The codes is under modification for more accurate numerical computation, reliabiltiy and better interface. The ultimate goal is to illustrate this model that could automatically grab required data and update the portfoilo allaction on a monthly basis. 
+The codes is under modification for more accurate numerical computation, reliabiltiy and better interface. The ultimate goal is to illustrate this model that could automatically grab required data and update the portfoilo allocation on a monthly basis. 
+
+
+<p align="center">
+  <img src="Output/FIGURE/Results/return/10_year_WF0.05.png" alt="Screenshot 1" width="800" height="450">
+</p>
+<p align="center">
+  <em>10-year walk forward backtesting returns between DCVaR and 1/N navie strategy </em>
+</p>
+
